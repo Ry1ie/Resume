@@ -1,0 +1,169 @@
+@font-face{
+
+	font-family: contactFont;
+	src: url('Exo-light.otf');
+
+}
+
+ul{
+	
+	list-style-type: square;
+	
+}
+
+ol{
+	
+	list-style-type: lower-alpha;
+	
+}
+
+table, th, td{
+	
+	border: 1px solid;
+	border-collapse: collapse;
+	width: 50%;
+		
+}
+
+#contactBody{
+	
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: hsl(0, 0%, 90%);  
+
+}
+
+#indexBody{
+	
+	background-color: hsl(0, 0%, 90%);
+	font-family: contactFont;
+	
+}
+
+#indexBody > p{
+	
+	font-size: 20px;
+	
+}
+
+#inputbox{
+  
+	margin-top:-15px;
+
+}
+
+#hdr{
+
+	margin-top: 5px;
+	font-size: 70px;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+#inputbox{
+
+	background-color: hsl(0, 0%, 100%);
+	border: 4px solid hsl(0, 0%, 90%);
+	display: grid;
+
+}
+
+#submit{
+
+	background-color: GREEN; 
+	color: hsl(0, 0%, 90%);; 
+	border:0; 
+	padding:5; 
+	border-radius: 5px;
+
+}
+
+#reset{
+
+	background-color: RED; 
+	color: hsl(0, 0%, 90%);; 
+	border:0; 
+	padding:5; 
+	border-radius: 5px;
+
+}
+
+#homepage{
+
+	background-color: blue;
+	text-align: center;
+	color: hsl(0, 0%, 90%);; 
+	border:0; 
+	padding:5; 
+	border-radius: 5px;
+
+}
+
+#socmed{
+
+	width: 50px;
+	height: auto;
+	position: relative;
+	left: 300px;
+	bottom: 500px;
+	text-align: center;
+	
+}
+
+#picture{
+	
+	float: right;
+	padding-right: 5%; 
+	length: 100; 
+	width: 100;
+}
+
+#contactmepng{
+	
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+	
+}
+
+.cat{
+
+	transform: scaleX(-1);
+	
+	float: right;
+	position: relative;
+	right: 100px;
+	top: 200px;
+	
+}
+
+.frm{
+	
+	margin: auto;
+	margin-top: 30px;
+	margin-left: 50px;
+	
+	padding: auto;
+	padding-left: 30px;
+	
+	text-align: left;
+	
+	width: 800px;
+	height: 680px;
+	
+	border: 4px solid hsl(0, 0%, 90%);;
+	border-radius: 5px;
+	
+	font-family: contactFont;
+	background: #e30666;
+	
+}
+
+p{
+
+	font-size: 30px;
+
+}
